@@ -1,5 +1,5 @@
 {
-    "name": "alxmsl/appstoreclient",
+    "name": "Topface/appstoreclient",
     "description": "AppStore client for iTunes purchases receipts verification",
     "keywords": ["appstore", "apple", "itunes", "inapp", "purchases"],
     "license": "WTFPL",
@@ -19,5 +19,15 @@
     "require":{
         "alxmsl/network": ">=1.0.1",
         "alxmsl/cli": ">=1.0.2"
-    }
+    },
+    "repositories": [
+        {
+            "type": "vcs",
+            "url":  "git@github.com:Topface/Network.git"
+        },
+        {
+            "type": "vcs",
+            "url":  "git@github.com:Topface/Cli.git"
+        }
+    ]
 }
