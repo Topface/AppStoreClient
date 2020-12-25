@@ -1,5 +1,5 @@
 {
-    "name": "Topface/appstoreclient",
+    "name": "topface/appstoreclient",
     "description": "AppStore client for iTunes purchases receipts verification",
     "keywords": ["appstore", "apple", "itunes", "inapp", "purchases"],
     "license": "WTFPL",
